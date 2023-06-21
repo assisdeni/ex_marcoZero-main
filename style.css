@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(230, 249, 250);
+    position:relative;
+    width: 100%;
+    height: 250px;
+    padding: 1px 1px;
+}
+
+nav a {
+    display: inline-block;
+    float: right;
+    margin: 10rem 16px;
+    text-decoration: none;
+    
+}
+
+nav .logo-img {
+    display: block;
+    float: left;
+    margin-top: 3px;
+    margin-left: 3rem;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content:space-around;
+    margin-right: 20%;
+    font-family: 'Roboto mono';
+    font-weight: 400;
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    font-family: 'Roboto mono';
+    font-weight: 400;
+    text-decoration: none;
+    text-align: left;  
+}
+
+
+.descricao_texto {
+    color: black;
+    font-family: 'Roboto mono';
+    font-style: italic;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 16px;
+    padding: 1rem 5rem;
+     
+}
+
+.rodape_titulo {
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Roboto mono';
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+.rodape_texto {
+    color: black;
+    font-family: 'Roboto mono';
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    font-size: 16px;
+    padding: 1rem 5rem;
+     
+}
+
+.rodape_redeSocial{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .social-media {
+    text-align: center;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+  }
+  
